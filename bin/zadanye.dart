@@ -4,6 +4,6 @@ void main(List<String> arguments) async {
  Dio httpClient=Dio();
  String url ='https://dummyjson.com/products';
  var response = await httpClient.get(url);
- 
- print(response.data);
+
+
 }
